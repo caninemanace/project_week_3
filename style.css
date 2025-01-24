@@ -1,0 +1,39 @@
+.form{
+    text-align: center;
+    margin-top: 50;
+    font-size: 30;
+    color: rgb(43, 23, 96);
+    background-color: rgb(125, 137, 229);
+    width: 40vw;
+    margin-left: 470;
+    border-radius: 20px;
+    height: 40vh;
+}
+.box1{
+    color: rgb(43, 23, 96);
+    font-size: 30;
+    border-radius: 20px;
+}
+.box2{
+    color: rgb(43, 23, 96);
+    font-size: 30;
+    border-radius: 20px;
+}
+.box3{
+    color: rgb(43, 23, 96);
+    font-size: 30;
+    border-radius: 20px;
+}
+.submit{
+    font-size: 30;
+    margin-top: -20;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(13, 95, 68);
+}
+.heading{
+    margin-left: 600;
+    font-size: 40;
+    margin-top: 200;
+}
