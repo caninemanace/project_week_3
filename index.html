@@ -7,30 +7,31 @@
   </head>
   <body>
     <p class="heading"><strong>ENTER YOUR DETAILS</strong></p>
-     <div class="form">
+     <div class="form" >
       <form>
         <label for="">DAY :</label>
-        <input type="number" id="DAY"><br><br><br>
+        <input type="number" id="DAY" min="1" max="31"required><br><br><br>
 
 
         <label for="">MONTH :</label>
-        <input type="number" id="MONTH"><br><br><br>
+        <input type="number" id="MONTH" min="1" max="12"required ><br><br><br>
 
 
       <label for="">YEAR:</label>
-      <input type="number" id="YEAR"><br><br><br>
+      <input type="number" id="YEAR" min="1900" max="2025"required><br><br><br>
 
-
+      
       <label for="">male</label>
-      <input type="checkbox">
+      <input type="checkbox" id="Males">
       <label for="">Female</label>
-      <input type="checkbox">
+      <input type="checkbox" id="Females">
+      
 
-      <input type="submit" class="submit">
+      <input type="submit"class="submit" onclick="akinnamegenerator()">
       </form>
      </div>
 
-    
+
    <script src="script.js"></script>
   </body>
 </html>
