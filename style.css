@@ -5,9 +5,10 @@
     color: rgb(43, 23, 96);
     background-color: rgb(125, 137, 229);
     width: 40vw;
-    margin-left: 470;
+    margin-left: 490;
     border-radius: 20px;
-    height: 40vh;
+    height: 25vh;
+    width: 50vw;
 }
 #DAY{
     color: rgb(43, 23, 96);
@@ -26,14 +27,27 @@
 }
 .submit{
     font-size: 30;
-    margin-top: -20;
+    margin-top: 50;
     border-radius: 20px;
+    width: 50vw;
 }
 body{
     background-color: rgb(13, 95, 68);
 }
 .heading{
-    margin-left: 600;
-    font-size: 40;
-    margin-top: 200;
+    text-align: center;
+    margin-top: 0;
+    font-size: 50;
+    background-color: rgb(125, 137, 229);
+    width: 80vw;
+    margin-left: 170;
+    border-radius: 20px;
+}
+#result{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 20;
+    font-size: 50;
+    height: 20vh;
+    text-align: center;
 }

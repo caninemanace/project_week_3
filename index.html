@@ -6,30 +6,29 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p class="heading"><strong>ENTER YOUR DETAILS</strong></p>
+    <p class="heading"><strong>ENTER YOUR DETAILS TO KNOW YOUR AKAN NAME</strong></p>
      <div class="form" >
-      <form>
-        <label for="">DAY :</label>
-        <input type="number" id="DAY" min="1" max="31"required><br><br><br>
-
-
-        <label for="">MONTH :</label>
-        <input type="number" id="MONTH" min="1" max="12"required ><br><br><br>
-
-
-      <label for="">YEAR:</label>
-      <input type="number" id="YEAR" min="1900" max="2025"required><br><br><br>
-
+      <form onsubmit="akinNameGenerator()">
+        <label for="DAY">Day:</label>
+        <input type="number" id="DAY" name="DAY" max="31" min="1" required>
       
-      <label for="">male</label>
-      <input type="checkbox" id="Males">
-      <label for="">Female</label>
-      <input type="checkbox" id="Females">
+        <label for="MONTH">Month:</label>
+        <input type="number" id="MONTH" name="MONTH" max="12" min="1" required>
       
-
-      <input type="submit"class="submit" onclick="akinnamegenerator()">
+        <label for="YEAR">Year:</label>
+        <input type="number" id="YEAR" name="YEAR" max="2025" min="2025" required>
+      
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      
+        <button type="submit" class="submit">Generate Akan Name</button>
       </form>
+      
      </div>
+     <div id="result"></div>
 
 
    <script src="script.js"></script>
